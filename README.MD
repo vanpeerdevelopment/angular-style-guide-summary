@@ -34,7 +34,7 @@ Most of the recommendations of the angular style guide are used when using `angu
 - **[Modules](https://angular.io/guide/styleguide#angular-ngmodule-names)**
     - **Do** name the module after the feature and folder it resides in.
     - **Do** suffix a RoutingModule class name with `RoutingModule`. A `RoutingModule` is a module dedicated exclusively to configuring the Angular router. 
-    - **Do** end the filename of a RoutingModule with -routing.module.ts`.
+    - **Do** end the filename of a `RoutingModule` with `-routing.module.ts`.
     
 ## [Code conventions](https://angular.io/guide/styleguide#coding-conventions)
 - **[Classes](https://angular.io/guide/styleguide#classes)**
@@ -136,7 +136,7 @@ Most of the recommendations of the angular style guide are used when using `angu
     - **Do** create services with a single responsibility that is encapsulated by its context.
     - **Do** create a new service once the service begins to exceed that singular purpose.
 - **[Providing a service](https://angular.io/guide/styleguide#providing-a-service)**
-    - Do provide services to the Angular injector at the top-most component where they will be shared.
+    - **Do** provide services to the Angular injector at the top-most component where they will be shared.
 - **[Use the @Injectable() class decorator](https://angular.io/guide/styleguide#providing-a-service)**
     - **Do** use the `@Injectable()` class decorator instead of the `@Inject` parameter decorator when using types as tokens for the dependencies of a service.
     
